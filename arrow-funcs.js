@@ -1,7 +1,7 @@
 let getName = ()  =>  "Essence";
   return "Essence";
   
-  // same as
+  // same as 
   
   
   let getName = function() {
@@ -9,7 +9,7 @@ let getName = ()  =>  "Essence";
  };
  
  
- //
+ //Creating Immediately Invoked Function Expression (IIFE)
  
  let person = function(name)  {
  
