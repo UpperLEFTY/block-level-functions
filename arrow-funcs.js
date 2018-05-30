@@ -14,4 +14,5 @@ let getName = ()  =>  "Essence";
  let person = function(name)  {
  
       return {
-          getName
+          getName: function() {
+               return name;
