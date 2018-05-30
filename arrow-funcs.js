@@ -18,3 +18,5 @@ let getName = ()  =>  "Essence";
                return name;
           }
       };
+ }("Essence");
+
