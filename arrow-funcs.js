@@ -16,3 +16,5 @@ let getName = ()  =>  "Essence";
       return {
           getName: function() {
                return name;
+          }
+      };
