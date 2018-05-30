@@ -1,11 +1,11 @@
-let getName = ()  =>  "Essence";
-  return "Essence";
+let getName = ()  =>  "Jessica Jones";
+  return "Jessica Jones";
   
   // same as 
   
   
   let getName = function() {
-      return "Essence";
+      return "Jessica Jones";
  };
  
  
@@ -18,13 +18,14 @@ let getName = ()  =>  "Essence";
                return name;
           }
       };
- }("Essence");
-console.log(person.getName());        // "Essence"
+ }("Jessica Jones");
+console.log(person.getName());        // "Jessica Jones"
 
 // Same as
 
 let person = ((name)  => {
   
   return {
-    getName:
+    getName:  function(); {
+  }
 
