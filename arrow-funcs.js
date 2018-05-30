@@ -23,9 +23,11 @@ console.log(person.getName());        // "Jessica Jones"
 
 // Same as
 
-let person = ((name)  => {
+      let person = ((name)  => {
   
-  return {
-    getName:  function(); {
-  }
+        return {
+        getName:  function(); {
+      }
+    };
+  })("Jessica Jones");
 
