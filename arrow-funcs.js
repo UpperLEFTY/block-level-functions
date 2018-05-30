@@ -23,5 +23,8 @@ console.log(person.getName());        // "Essence"
 
 // Same as
 
-let person = ((name)
+let person = ((name)  => {
+  
+  return {
+    getName:
 
