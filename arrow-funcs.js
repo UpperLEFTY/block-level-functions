@@ -19,4 +19,9 @@ let getName = ()  =>  "Essence";
           }
       };
  }("Essence");
+console.log(person.getName());        // "Essence"
+
+// Same as
+
+let person = ((name)
 
